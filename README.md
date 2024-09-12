@@ -37,6 +37,8 @@ This project is a **Smart Home Surveillance System** that integrates **facial re
    ```bash
    git clone https://github.com/your-username/surveillance-system.git
    cd surveillance-system
+
+   
 2. **Create a virtual environment:**
    `
     SMTP_SERVER = 'smtp.gmail.com'
@@ -46,6 +48,8 @@ This project is a **Smart Home Surveillance System** that integrates **facial re
     RECIPIENT_EMAIL = 'recipient-email@gmail.com'
     python3 -m venv venv
     source venv/bin/activate   # On Windows use `venv\Scripts\activate``
+
+   
 3.**Install the dependencies:**
    pip install -r requirements.txt
 
