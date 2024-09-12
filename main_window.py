@@ -115,7 +115,7 @@ class Ui_MainWindow(object):
             msg.exec_()  
 
     def delete_person(self):
-        folder_path="/home/nounou/surveillance_system/known_faces"
+        folder_path="/home/surveillance_system/known_faces"
         if not os.path.exists(folder_path):
             msg=QMessageBox()
             msg.setIcon(QMessageBox.Warning)
