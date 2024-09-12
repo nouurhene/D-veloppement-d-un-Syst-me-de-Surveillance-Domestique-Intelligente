@@ -157,7 +157,7 @@ class Ui_MainWindow(object):
 
     def activate_script(self):
          # Path to the external Python script
-        script_path = "/home/nounou/surveillance_system/surveillance.py"
+        script_path = "/home/surveillance.py"
         # Run the external script
         result = subprocess.run([sys.executable, script_path], capture_output=True, text=True)
                     
