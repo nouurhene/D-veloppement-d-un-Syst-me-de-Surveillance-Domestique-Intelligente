@@ -9,9 +9,9 @@ import smtplib
 
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-EMAIL_ADDRESS = 'koukinourhen03@gmail.com'
-EMAIL_PASSWORD = 'qzsk bgmn enms cdbu'
-RECIPIENT_EMAIL = 'nourhenekouki016@gmail.com'
+EMAIL_ADDRESS = ''
+EMAIL_PASSWORD = ''
+RECIPIENT_EMAIL = ''
 
 # Temporary storage for verification codes
 verification_codes = {}
